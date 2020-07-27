@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+canvas {
+  display: block;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  outline: none;
+  border: none;
+  background: #FF0801;
+}
+
+button:hover {
+  color: #ffffff;
+  background: #32ebd2;
+  box-shadow: 0 0 10px #32ebd2, 0 0 40px #32ebd2, 0 0 80px #32ebd2;
+  cursor: pointer;
+}
+
+/* #playbutton:hover:before {
+  opacity:1;
+  transition: 0.3s opacity ease-in-out;
+  filter:blur(25px);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);  
+}
+
+#playbutton:after {
+  content:'PLAY';
+  text-align:center;
+  line-height:40px;
+  font-size:18px;
+  color:rgba(235,235,235,1);
+  font-weight:bold;
+  z-index:5;
+  position:absolute;
+  display:block;
+  border-radius:180px;
+  width:92%;
+  height:80%;
+  top:10%;
+  left:4%;  
+  background-color:rgb(19, 20, 22);
+} */
